@@ -19,8 +19,8 @@ CREATE TABLE "dept_emp" (
 );
 
 CREATE TABLE "dept_manager" (
-    "dept_no" VARCHAR (4)  NOT NULL UNIQUE,
-    "emp_no" INTEGER  NOT NULL UNIQUE,
+    "dept_no" VARCHAR (4)  NOT NULL,
+    "emp_no" INTEGER  NOT NULL,
     CONSTRAINT "pk_dept_manager" PRIMARY KEY (
         "dept_no"
      )
